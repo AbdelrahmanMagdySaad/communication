@@ -1,0 +1,12 @@
+Matlab Simulator for  samplers, quantizers, encoders and filters
+1) each of these blocks are implemented in separate  function
+2)Your ’Sampler’ function should allow the use of an arbitrary source signal, m(t), and a user-input
+sampling frequency fs
+3) Your ’Quantizer’ function should have the option that the user chooses between
+	a) Uniform mid-rise quantizer, where the user specifies the number of levels, L 	    and the peak  quantization level, mp
+	b)Non-Uniform meo -Law quantizer, where the user specifies meo, L and mp
+4) Your ’Encoder’ function should allow the user to choose between
+	a) Unipolar NRZ signaling
+	b)Polar NRZ signaling
+	c) Manchester signaling
+. 
